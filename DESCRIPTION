@@ -1,0 +1,28 @@
+Package: BTYD
+Type: Package
+Title: Buy Til You Die models in R - made easy
+Version: 0.0.0.9000
+URL: https://btydr.github.io/
+BugReports: https://github.com/btydr/btydr/issues
+Authors@R: c(
+  person("Brad", "Ito", role=c("aut", "cre", "ctb"), email="brad@bradito.me"),
+  person("Lukasz", "Dziurzynski", role="aut"),
+  person("Edward", "Wadsworth", role="aut"),
+  person("Peter", "Fader", role="ctb"),
+  person("Elea", "McDonnell Feit", role="ctb"),
+  person("Daniel", "McCarthy", role=c("aut", "ctb")),
+  person("Bruce", "Hardie", role="ctb"),
+  person("Arun", "Gopalakrishnan", role="ctb"),
+  person("Eric", "Schwartz", role="ctb"),
+  person("Yao", "Zhang", role="ctb")
+)
+Description: Buy Til You Die models for modeling consumer purchase behavior.
+  Including data manipulation, parameter estimation/training, and predictions/scoring.
+  draws from BTYD and BTYDplus package models, with aim of being maintained and easy to use.
+Imports:
+  hypergeo
+  Matrix
+Suggests:
+  knitr
+License: GPL-3
+VignetteBuilder: knitr
